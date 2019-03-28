@@ -195,15 +195,15 @@ body {
 	}
 }
 
-.header__nav__item > a[data-ref='about']::before {
+.header__nav__item > a[data-ref='sobre']::before {
   content:url('https://eevu.github.io/img/about_icon.svg');
 }
 
-.header__nav__item > a[data-ref='portfolio']::before {
+.header__nav__item > a[data-ref='habilidades']::before {
   content:url('https://eevu.github.io/img/portfolio_icon.svg');
 }
 
-.header__nav__item > a[data-ref='contact']::before {
+.header__nav__item > a[data-ref='contato']::before {
   content:url('https://eevu.github.io/img/contact_icon.svg');
 }
 
@@ -329,7 +329,7 @@ body {
 
 
 /* --- Sections --- */
-#about{
+#sobre{
 	background:
 		linear-gradient(
 		  rgba(0,0,0,.3),rgba(0,0,0,.65)
@@ -340,7 +340,7 @@ body {
 	/*background-size: cover; */
 
 
-#about,
+#sobre,
 #portfolio,
 #contact {
 	padding-top: 8.5em;
@@ -348,18 +348,18 @@ body {
 
 
 /*** About Section ***/
-#about { 
+#sobre { 
 	display: flex;
 	min-height: 100vh;
 }
 
-#about .wrapper {
+#sobre .wrapper {
 	max-width: 80%;
 	margin: auto;
 	margin-right: 10%
 }
 @media (min-width: 768px) {
-	#about .wrapper {
+	#sobre .wrapper {
 		margin-right: 24%;
 	}
 }
@@ -372,7 +372,7 @@ body {
 	color: #fff;
 }
 
-#about:hover .global-button.rotated::before {
+#sobre:hover .global-button.rotated::before {
 	-webkit-animation: move_arrow_v 2500ms ease-in infinite forwards;
 	        animation: move_arrow_v 2500ms ease-in infinite forwards;
 }
